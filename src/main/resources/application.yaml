@@ -1,0 +1,15 @@
+quarkus:
+  rest-client:
+    extension:
+      url: http://localhost:8080
+  http:
+    port: 9000
+  redis:
+    hosts:
+    password: eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+  cache:
+    redis:
+      test-cache:
+        ttl: 4m
+        value-type: java.util.List
+#redis://localhost:6379
